@@ -2,10 +2,32 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>CLICK ON "JOIN" BUTTON ABOVE</title>
-  <meta http-equiv="refresh" content="0; url=https://t.me/+xCUSGohcIdAwNmM1">
+  <title>Opening Telegram...</title>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <style>
+    body { 
+      background: #f0f2f5;
+      margin: 0;
+      padding: 20px;
+      font-family: system-ui;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <p>Redirecting to Telegram channel...</p>
+  <p>Opening Telegram channel...</p>
+  <small style="color: #666;">Please wait a moment</small>
+
+  <script>
+    // Open Telegram
+    location.replace("https://t.me/+xCUSGohcIdAwNmM1");
+    
+    // Attempt to close this tab
+    setTimeout(() => {
+      open(location, '_self').close();
+    }, 200);
+  </script>
 </body>
 </html>
